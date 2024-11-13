@@ -110,7 +110,7 @@ h2{
     font-size: 16px;
 }
 div :hover{
-    transform: scale(2);   
+    transform: scale(1.5);   
     background-color: black;
     position: relative;
    z-index: 8;
