@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450787/fenteDeReverence_n71jbc.gif" alt="fenteDeReverence">
 </div>
@@ -15,6 +15,9 @@
     Cette exercice renforce vos cuisses et vos fessiers. Principalement les quadriceps (droit fémoral, vaste latéral, vaste intermédiaire, vaste médial) et les trois faisceaux musculaires des fessiers (petit, moyen et grand).
 </p>
 </div>
+</div>
+<div>
+  <BtnHome />
 </div>
   </main>
 </template>

@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450787/JumpSquat_un73gz.gif" alt="jumpsquat">
 </div>
@@ -15,6 +16,9 @@ import { RouterLink } from 'vue-router';
 Comme tout exercice pliométrique, il est idéal pour gagner en explosivité et en puissance
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

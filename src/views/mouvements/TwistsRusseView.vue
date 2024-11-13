@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450789/twistsRusse_f0ujje.jpg" alt="twistsrusse">
 </div>
@@ -15,6 +15,9 @@
 Lors de twists russes, les muscles obliques externes de l’abdomen sont les premiers sollicités. Ensuite, étant donné qu’il n’est pas possible d’isoler complètement les obliques, le muscle grand droit de l’abdomen participe également au mouvement.
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

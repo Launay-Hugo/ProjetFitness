@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450786/crunch_unborq.gif" alt="crunch">
 </div>
@@ -18,6 +18,9 @@ Enrouler le buste vers l’avant en contractant les abdominaux. (Les épaules ne
 Le Crunch sollicite surtout le grand droit des abdominaux, et secondairement les muscles obliques situés sur le côté de la taille.
 </p>
 </div>
+</div>
+<div>
+  <BtnHome />
 </div>
   </main>
 </template>

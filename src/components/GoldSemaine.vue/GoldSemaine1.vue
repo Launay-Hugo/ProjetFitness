@@ -3,7 +3,7 @@
 </script>
 <template>
     <h1>Semaine 1</h1>
- <div class="container">
+ <div class="container programmes-670px">
 <div>
 <h2>Jour 1</h2>
 <p>Jumping Jack 20s</p>
@@ -72,6 +72,7 @@
  </div>
 
 
+
 </template>
 <style scoped>
 .container{
@@ -97,7 +98,7 @@ h2{
     font-size: 16px;
 }
 div :hover{
-    transform: scale(2);   
+    transform: scale(1.5);   
     background-color: black;
     position: relative;
    z-index: 8;
@@ -109,4 +110,8 @@ p:hover{
 h2:hover{
     transform: none;
 }
+@media (max-width: 670px) {
+  div:hover {
+      transform: none;
+  }}
 </style>

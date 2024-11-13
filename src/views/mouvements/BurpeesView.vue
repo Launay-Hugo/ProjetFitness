@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450786/burpees_r0kbxq.gif" alt="burpees">
 </div>
@@ -15,6 +16,9 @@ import { RouterLink } from 'vue-router';
 Les Burpees sollicitent la quasi-totalité de vos groupes musculaires. Ils permettent aussi d’augmenter votre endurance musculaire  ainsi que vos capacités cardiovasculaires.
 </p>
 </div>
+</div>
+<div>
+<BtnHome />
 </div>
   </main>
 </template>

@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450787/crunchVelo_pbj4tf.gif" alt="crunchVelo">
 </div>
@@ -16,6 +16,9 @@ Le crunch vélo sert à façonner vos muscles abdominaux, qui englobent la total
 
 </p>
 </div>
+</div>
+<div>
+  <BtnHome />
 </div>
   </main>
 </template>

@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450786/dips_u8xbwd.gif" alt="dips">
 </div>
@@ -15,6 +15,9 @@
 le dips muscle surtout les triceps pour les bras mais il fait aussi travailler les pectoraux, les faisceaux antérieurs du deltoïde, l'anconé, un petit muscle au niveau de la partie postérieure du coude et le grand dorsal.
 </p>
 </div>
+</div>
+<div>
+  <BtnHome />
 </div>
   </main>
 </template>

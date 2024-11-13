@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450787/mountainClimb_vf5zra.gif" alt="mountain climber">
 </div>
@@ -15,7 +15,9 @@ le mountain climber sollicite l’ensemble des groupes musculaires, et particuli
 </p>
 </div>
 </div>
-
+<div>
+  <BtnHome/>
+</div>
   </main>
 </template>
 <style scoped>

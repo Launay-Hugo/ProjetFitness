@@ -16,6 +16,8 @@
     background-color: var(--bblack);
   }
   a {
+    color: var(--orange);
     font-weight: bold;
+    text-decoration: none;
   }
   </style>

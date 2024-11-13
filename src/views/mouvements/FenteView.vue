@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450786/fente_xahtg1.gif" alt="fente">
 </div>
@@ -16,6 +16,9 @@ Les fentes font énormément travailler vos quadriceps ainsi que le grand, le mo
 
 </p>
 </div>
+</div>
+<div>
+  <BtnHome />
 </div>
   </main>
 </template>

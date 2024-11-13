@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450787/kneePompe_acng8u.gif" alt="kneePompe">
 </div>
@@ -16,6 +17,9 @@ Placez donc les genoux par terre, les mains sous les épaules et croisez les pie
 Procédez ensuite au même schéma que les <RouterLink :to="{name:'pompe'}">Pompes</RouterLink>. Cette exercice travaille les mêmes groupes musculaire.
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

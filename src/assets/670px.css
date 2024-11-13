@@ -1,0 +1,65 @@
+@media(max-width: 670px){
+    /* header */
+  .at-670px{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+ 
+  }
+ .mouvements{
+    position: relative;
+ flex-wrap: wrap;  
+ }
+ .mouvements2{
+    position: relative;
+ flex-wrap: wrap;  
+ }
+    
+  
+  span{
+    font-size: 14px;
+  }
+.description{
+    text-align: center;
+    padding-right: 30px;
+}
+
+/* home */
+.home-670px h2{
+    margin-top: 80px;
+    
+ }
+ .leftCard{
+ padding: 10px 25px;
+  }
+ 
+  .rightCard {
+  padding: 5px 10px;
+    
+  }
+/* programmes */
+.reactive{
+    margin-top: 100px; 
+
+  }   
+
+
+.programmes-670px{  
+    overflow-x: scroll;
+    white-space: nowrap;
+    
+}
+
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+}
+@media (max-width: 670px) {
+    div:hover {
+        transform: none;
+    }}

@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450788/pompe_hpiwoe.gif" alt="pompe">
 </div>
@@ -15,6 +15,9 @@
     Cet exercices sollicite principalement le grand pectoral, les triceps et les deltoïdes antérieurs (avec des avantages auxiliaires pour le reste des deltoïdes, le serratus antérieur, le coraco brachial et l'ensemble du midside).
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

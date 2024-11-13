@@ -1,0 +1,27 @@
+@media(max-width: 960px){
+    /* header */
+    .at-960px{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      .mouvements{
+        position: relative;
+     flex-wrap: wrap;  
+     }
+     .mouvements2{
+        position: relative;
+     flex-wrap: wrap;  
+     }
+
+/* home */
+.home-960px h2{
+   padding-top: 40px;
+   
+}
+}
+/* progammes */
+
+  

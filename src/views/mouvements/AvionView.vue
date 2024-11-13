@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
-  <main>
-<div class="container">
+  <main >
+<div class=" container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450786/avion_gitlfx.gif" alt="avion">
 </div>
@@ -16,6 +16,9 @@ Maintenez vos hanches et vos épaules parallèles ( votre dos doit être droit )
 Cet exercice fait travailler l’abdomen, le bas du dos, les fessiers et les cuisses.
 </p>
 </div>
+</div>
+<div>
+<BtnHome />
 </div>
   </main>
 </template>
@@ -44,5 +47,6 @@ h1{
 p{
   font-size: 18px;
 }
+
 
 </style>

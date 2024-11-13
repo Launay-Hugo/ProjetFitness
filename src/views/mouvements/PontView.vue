@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div>
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450788/pont_s6iq4z.jpg" alt="pont">
 </div>
@@ -14,6 +14,9 @@
 Le Pont sollicite gentiment votre dos, vos fessiers et vos cuisses
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

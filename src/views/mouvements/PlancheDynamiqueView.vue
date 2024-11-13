@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450788/plancheDynamique_hmuwka.gif" alt="plancheDynamique">
 </div>
@@ -18,7 +19,11 @@ Alternez l'ordre des bras à chaque répétition.
 </p>
 </div>
 </div>
+<div>
+    <BtnHome/>
+  </div>
   </main>
+  
 </template>
 <style scoped>
 .container{

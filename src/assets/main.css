@@ -1,10 +1,15 @@
 @import './base.css';
+@import "./670px.css" (max-width: 670px);
+@import "./960px.css"(max-width: 960px);
+@import"./1115px.css"; 
+
+
 
 
 
 :root {
   --orange: #ec5a13;
-  --bblack: rgb(2, 0, 15);
+  --bblack: rgb(4, 0, 28);
   --header-height: 110px;
   --footer-height: 80px;
   --platinium:#a9c8ed;

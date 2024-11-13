@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
   <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450788/plancheLateral1_q9dms8.jpg" alt="plancheLateral">
 </div>
@@ -14,6 +14,9 @@
   Tenez vous debout, les pieds joints et les bras baissés, sautez et écartez les bras ainsi que les jambes et vous atterrissez, puis vous sautez et vous rapprochez les pieds et les bras à nouveau. Cet exercice renforce le cardio et fait travailler tout le corps.
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

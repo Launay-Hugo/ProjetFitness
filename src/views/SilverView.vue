@@ -4,11 +4,13 @@ import SilverSemaine1 from '@/components/SilverSemaine.vue/SilverSemaine1.vue';
 import SilverSemaine2 from '@/components/SilverSemaine.vue/SilverSemaine2.vue';
 import SilverSemaine3 from '@/components/SilverSemaine.vue/SilverSemaine3.vue';
 import SilverSemaine4 from '@/components/SilverSemaine.vue/SilverSemaine4.vue';
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
 <div class="container">
+  <div class="reactive"></div>
 <div >
 <SilverSemaine1 />
 </div>
@@ -21,7 +23,7 @@ import SilverSemaine4 from '@/components/SilverSemaine.vue/SilverSemaine4.vue';
 </div>
 <div  class="home">
 <div>
-    <button> <RouterLink :to="{name:'home'}"><span>Retour à l'accueil</span></RouterLink></button>
+    <BtnHome />
 </div>
 </div>
 </div>
@@ -42,10 +44,8 @@ div {
 padding-top: 80px;
 
 }
-a{
-  color: white;
-  text-decoration: none;
+
+.reactive{
+  position: relative;
 }
-
-
 </style>

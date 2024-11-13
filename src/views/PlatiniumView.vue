@@ -1,6 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
-
+import BtnHome from '@/components/BtnHome.vue'
 import PlatiniumSemaine1 from '@/components/PlatiniumSemaine.vue/PlatiniumSemaine1.vue';
 import PlatiniumSemaine2 from '@/components/PlatiniumSemaine.vue/PlatiniumSemaine2.vue';
 import PlatiniumSemaine3 from '@/components/PlatiniumSemaine.vue/PlatiniumSemaine3.vue';
@@ -10,19 +9,20 @@ import PlatiniumSemaine4 from '@/components/PlatiniumSemaine.vue/PlatiniumSemain
 <template>
   <main>
 <div class="container">
-<div >
+  <div class="reactive"></div>
+<div>
 <PlatiniumSemaine1 />
 </div>
 <PlatiniumSemaine2 />
 <div >
 <PlatiniumSemaine3 />
 </div>
-<div>
+<div >
 <PlatiniumSemaine4 />
 </div>
 <div  class="home">
 <div>
-    <button> <RouterLink :to="{name:'home'}"><span>Retour à l'accueil</span></RouterLink></button>
+    <BtnHome/>
 </div>
 </div>
 </div>
@@ -43,10 +43,8 @@ div {
 padding-top: 80px;
 
 }
-a{
-  color: white;
-  text-decoration: none;
+.reactive{
+  position: relative;
 }
-
 
 </style>

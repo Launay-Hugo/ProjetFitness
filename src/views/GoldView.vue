@@ -1,6 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
-
+import BtnHome from '@/components/BtnHome.vue'
 import GoldSemaine1 from '@/components/GoldSemaine.vue/GoldSemaine1.vue';
 import GoldSemaine2 from '@/components/GoldSemaine.vue/GoldSemaine2.vue';
 import GoldSemaine3 from '@/components/GoldSemaine.vue/GoldSemaine3.vue';
@@ -9,8 +8,9 @@ import GoldSemaine4 from '@/components/GoldSemaine.vue/GoldSemaine4.vue';
 
 <template>
   <main>
-<div class="container">
-<div >
+<div class="container ">
+<div class="reactive"> </div>
+  <div>
 <GoldSemaine1 />
 </div>
 <GoldSemaine2 />
@@ -22,7 +22,7 @@ import GoldSemaine4 from '@/components/GoldSemaine.vue/GoldSemaine4.vue';
 </div>
 <div  class="home">
 <div>
-    <button> <RouterLink :to="{name:'home'}"><span>Retour à l'accueil</span></RouterLink></button>
+    <BtnHome/>
 </div>
 </div>
 </div>
@@ -43,10 +43,9 @@ div {
 padding-top: 80px;
 
 }
-a{
-  color: white;
-  text-decoration: none;
-}
 
+.reactive{
+  position: relative;
+}
 
 </style>

@@ -1,10 +1,10 @@
 <script setup>
-
+import BtnHome from '@/components/BtnHome.vue'
 </script>
 
 <template>
   <main>
-<div class="container">
+<div class="container at-670px">
 <div >
  <img src="https://res.cloudinary.com/dskfvpsiu/image/upload/v1731450789/squat_yyv2ar.gif" alt="squat">
 </div>
@@ -15,6 +15,9 @@ Tenez-vous droit , les pieds écartés , puis baissez votre corps jusqu'à ce qu
 Cet exercice cible les cuisses (principalement quadriceps, adducteurs et ischio-jambiers) et les fessiers. Il sollicite aussi secondairement les mollets, les lombaires et les abdominaux
 </p>
 </div>
+</div>
+<div>
+  <BtnHome/>
 </div>
   </main>
 </template>

@@ -13,14 +13,16 @@ import { RouterLink } from 'vue-router'
 <p>Ce programme d’entraînement se base sur l’HICT (Circuit Training Haute Intensité),considéré comme la façon la plus simple et efficace pour améliorer votre condition physique. </p>
   </div>
   <h2>Liste des différents mouvements :</h2>
+<div class="at-670px at-960px">
   <div class="mouvements">
+<font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'mountainClimber' }"><span>Mountain Climber</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'jumpingJack' }"><span>Jumping Jack</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'burpees' }"><span>Burpees</span></RouterLink>
+<RouterLink :to="{name:'kneePompe' }"><span>Pompe sur les genoux</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'pont' }"><span>Pont</span></RouterLink>
+<RouterLink :to="{name:'avion' }"><span>Avion</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'pompe' }"><span>Pompe</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
@@ -30,30 +32,34 @@ import { RouterLink } from 'vue-router'
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'crunch' }"><span>Crunch</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'avion' }"><span>Avion</span></RouterLink>
+<RouterLink :to="{name:'twistsRusse' }"><span>Twists Russe</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'planche' }"><span>Planche</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'plancheLateral' }"><span>Planche Latéral</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'twistsRusse' }"><span>Twists Russe</span></RouterLink>
+<RouterLink :to="{name:'pont' }"><span>Pont</span></RouterLink>
+<font-awesome-icon :icon="['fas', 'circle']" />
+<RouterLink :to="{name:'fenteReverence' }"><span>Fente de révérence</span></RouterLink>
+<font-awesome-icon :icon="['fas', 'circle']" />
   </div>
 <div class="mouvements2">
+  <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'squat' }"><span>Squat</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'squatWithJump' }"><span>Squat avec saut</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'crunchCroise' }"><span>Crunch bras croisés</span></RouterLink>
+<RouterLink :to="{name:'burpees' }"><span>Burpees</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'crunchVelo' }"><span>Crunch type vélo</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'fenteReverence' }"><span>Fente de révérence</span></RouterLink>
-<font-awesome-icon :icon="['fas', 'circle']" />
-<RouterLink :to="{name:'kneePompe' }"><span>Pompe sur les genoux</span></RouterLink>
+<RouterLink :to="{name:'crunchCroise' }"><span>Crunch bras croisés</span></RouterLink>
 <font-awesome-icon :icon="['fas', 'circle']" />
 <RouterLink :to="{name:'plancheDynamique' }"><span>Planche dynamique</span></RouterLink>
+<font-awesome-icon :icon="['fas', 'circle']" />
 </div>
-    </div>
+</div>
+</div>
   </header>
 
 </template>
@@ -97,6 +103,7 @@ p{
   text-align: center;
  margin-top: 10px;
   gap: 20px;
+
   
 }
 .mouvements2{
@@ -106,6 +113,7 @@ p{
   text-align: center;
  margin-top: 10px;
   gap: 20px;
+ 
   
 }
 a{
